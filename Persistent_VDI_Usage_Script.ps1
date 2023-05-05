@@ -8,6 +8,12 @@ Write-Host "Version 1.0, 05/05/2023"
 Write-Host "Written by BVB"
 Write-Host "###############################################################################################################"
 
+# instructions
+# Please enter your customer ID, API Secret, and API ClientId in the fields below (line 74-76)
+# change the $lookbackdays variable if desired, it is set to 7 days be default (line 84)
+# specify a CSV output path on line 216
+# dont change any other variables, if they are instantiated as empty variables (like $bearertoken) that is intentional
+
 # Function to retrieve Bearer Token using API credentials
 function GetBearerToken {
 
