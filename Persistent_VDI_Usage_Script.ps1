@@ -1,6 +1,6 @@
 # program opening text, details, version, etc
 Write-Host "###############################################################################################################"
-Write-Host "Welciome to the Persistent Desktop Usage Montor tool. this script seaches for all assigned machines in a site"
+Write-Host "Welcome to the Persistent Desktop Usage Monitor tool. this script seaches for all assigned machines in a site"
 Write-Host "and gathers all sessions & connections to that machine within the search timeframe specified.  each machine"
 Write-Host "gets a last-use timestamp and an aggregate usage time within the search period specified. These API"
 Write-Host "queries are READ-ONLY, so you cannot make any changes / interrupt a production environment using this program."
